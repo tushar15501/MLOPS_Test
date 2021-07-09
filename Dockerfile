@@ -10,7 +10,7 @@ RUN pip3 install scikit-learn
 
 RUN pip3 install pandas
 
-COPY marks.p1 /
+COPY marks.pk1 /
 
 COPY marks.py /
 
